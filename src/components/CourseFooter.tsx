@@ -24,7 +24,10 @@ const CourseFooter = () => {
             </h3>
             <div className="space-y-2">
               <div className="text-sm font-medium text-primary">
-                Núcleo de Saúde Digital - NSDIGI
+                NSDIGI - Núcleo de Saúde Digital
+              </div>
+              <div className="text-xs text-muted-foreground">
+                Secretaria de Estado de Saúde de Minas Gerais
               </div>
               <div className="space-y-1 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
@@ -33,11 +36,11 @@ const CourseFooter = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>(11) 9999-9999</span>
+                  <span>(31) 3916-0000</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
-                  <span>São Paulo, Brasil</span>
+                  <span>Belo Horizonte, Minas Gerais</span>
                 </div>
               </div>
             </div>
