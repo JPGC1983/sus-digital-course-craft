@@ -1,0 +1,105 @@
+import { Separator } from "@/components/ui/separator";
+import { Heart, Mail, Phone, MapPin } from "lucide-react";
+
+const CourseFooter = () => {
+  return (
+    <footer className="bg-muted/30 border-t">
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid md:grid-cols-3 gap-8">
+          {/* Sobre o Curso */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-foreground">
+              Saúde Digital no SUS
+            </h3>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Curso completo sobre interoperabilidade, RNDS e telessaúde 
+              para profissionais da saúde, gestores públicos e estudantes.
+            </p>
+          </div>
+
+          {/* Desenvolvido por */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-foreground">
+              Desenvolvido por
+            </h3>
+            <div className="space-y-2">
+              <div className="text-sm font-medium text-primary">
+                Núcleo de Saúde Digital - NSDIGI
+              </div>
+              <div className="space-y-1 text-sm text-muted-foreground">
+                <div className="flex items-center gap-2">
+                  <Mail className="w-4 h-4" />
+                  <span>contato@nsdigi.org.br</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" />
+                  <span>(11) 9999-9999</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <MapPin className="w-4 h-4" />
+                  <span>São Paulo, Brasil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Links Úteis */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-foreground">
+              Links Úteis
+            </h3>
+            <div className="space-y-2 text-sm">
+              <a 
+                href="https://datasus.saude.gov.br" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
+                DATASUS
+              </a>
+              <a 
+                href="https://conectesus.saude.gov.br" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
+                ConecteSUS
+              </a>
+              <a 
+                href="https://saude.gov.br" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
+                Ministério da Saúde
+              </a>
+              <a 
+                href="https://rnds.saude.gov.br" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
+                RNDS
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <Separator className="my-8" />
+
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+          <div className="flex items-center gap-1">
+            <span>© 2024 Núcleo de Saúde Digital - NSDIGI. Todos os direitos reservados.</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span>Feito com</span>
+            <Heart className="w-4 h-4 text-red-500 fill-current" />
+            <span>para o SUS</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default CourseFooter;

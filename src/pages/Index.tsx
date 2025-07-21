@@ -3,6 +3,7 @@ import CourseModules from "@/components/CourseModules";
 import CourseTargetAudience from "@/components/CourseTargetAudience";
 import CourseFeatures from "@/components/CourseFeatures";
 import CourseCallToAction from "@/components/CourseCallToAction";
+import CourseFooter from "@/components/CourseFooter";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <CourseModules />
       <CourseFeatures />
       <CourseCallToAction />
+      <CourseFooter />
     </div>
   );
 };
