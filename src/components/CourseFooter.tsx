@@ -99,10 +99,12 @@ const CourseFooter = () => {
             />
             <span>© 2025 Núcleo de Saúde Digital - NSDIGI. Todos os direitos reservados.</span>
           </div>
-          <div className="flex items-center gap-1">
-            <span>Feito com</span>
-            <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>para o SUS</span>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/bc067030-afb8-4a8c-aebb-f6797fd28ea2.png" 
+              alt="Governo de Minas - Saúde" 
+              className="h-8 w-auto"
+            />
           </div>
         </div>
       </div>
