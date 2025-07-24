@@ -52,7 +52,7 @@ const CourseCallToAction = () => {
                 </div>
 
                 <p className="text-sm text-muted-foreground">
-                  * Material complementar inclui PDFs e links para portais oficiais do MS, DATASUS e ConecteSUS
+                  * Material complementar inclui PDFs e links para portais oficiais do MS, DATASUS e MEUSUS
                 </p>
               </div>
             </div>

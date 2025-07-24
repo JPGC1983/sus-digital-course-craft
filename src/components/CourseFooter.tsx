@@ -61,12 +61,12 @@ const CourseFooter = () => {
                 DATASUS
               </a>
               <a 
-                href="https://conectesus.saude.gov.br" 
+                href="https://meususdigital.saude.gov.br" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-primary transition-colors"
               >
-                ConecteSUS
+                MEUSUS
               </a>
               <a 
                 href="https://saude.gov.br" 
