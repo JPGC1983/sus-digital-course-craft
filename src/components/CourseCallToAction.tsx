@@ -18,7 +18,7 @@ const CourseCallToAction = () => {
             <div className="text-center space-y-8">
               <div className="space-y-4">
                 <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
-                  Transforme sua Carreira na Saúde Digital
+                  Conecte-se à saúde digital e mergulhe no futuro do SUS!
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   Faça parte da revolução digital no Brasil! Integre a evolução do SUS e aprenda sobre saúde digital.
