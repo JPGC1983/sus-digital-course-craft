@@ -24,7 +24,7 @@ const CourseFooter = () => {
             </h3>
             <div className="space-y-2">
               <div className="text-sm font-medium text-primary">
-                NSDIGI - Núcleo de Saúde Digital
+                NÚCLEO DE SAÚDE DIGITAL-NSDIGI
               </div>
               <div className="text-xs text-muted-foreground">
                 SES-MG
