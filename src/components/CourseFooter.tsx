@@ -91,8 +91,13 @@ const CourseFooter = () => {
         <Separator className="my-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <div className="flex items-center gap-1">
-            <span>© 2024 Núcleo de Saúde Digital - NSDIGI. Todos os direitos reservados.</span>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/lovable-uploads/1630385c-42bc-4838-8bdb-c930bbda830a.png" 
+              alt="SES-MG Logo" 
+              className="h-8 w-auto"
+            />
+            <span>© 2025 Núcleo de Saúde Digital - NSDIGI. Todos os direitos reservados.</span>
           </div>
           <div className="flex items-center gap-1">
             <span>Feito com</span>
