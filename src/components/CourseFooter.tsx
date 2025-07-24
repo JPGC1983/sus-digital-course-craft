@@ -12,8 +12,8 @@ const CourseFooter = () => {
               Saúde Digital no SUS
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Curso completo sobre interoperabilidade, RNDS e telessaúde 
-              para profissionais da saúde, gestores públicos e estudantes.
+              Explore interoperabilidade, RNDS e telessaúde neste curso prático 
+              para profissionais da saúde, gestores públicos e estudantes. Conecte-se ao futuro do SUS!
             </p>
           </div>
 
