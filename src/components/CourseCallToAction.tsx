@@ -6,9 +6,7 @@ const benefits = [
   "Domine os fundamentos da Saúde Digital no SUS",
   "Aprenda sobre interoperabilidade e padrões FHIR",
   "Entenda como funciona a RNDS na prática",
-  "Implemente soluções de telessaúde e teleconsultoria",
-  "Mantenha-se atualizado com as tendências do setor",
-  "Receba certificado de conclusão"
+  "Implemente soluções de Telessaúde e Teleconsultoria"
 ];
 
 const CourseCallToAction = () => {
@@ -23,8 +21,7 @@ const CourseCallToAction = () => {
                   Transforme sua Carreira na Saúde Digital
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                  Seja parte da revolução digital no SUS e desenvolva competências 
-                  essenciais para o futuro da saúde no Brasil.
+                  Faça parte da revolução digital no Brasil! Integre a evolução do SUS e aprenda sobre saúde digital.
                 </p>
               </div>
 
@@ -39,7 +36,7 @@ const CourseCallToAction = () => {
 
               <div className="space-y-6">
                 <div className="bg-accent/50 rounded-lg p-6">
-                  <div className="text-sm text-muted-foreground mb-2">Duração do curso</div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">Duração do curso</h3>
                   <div className="text-2xl font-bold text-foreground">10-15 horas</div>
                   <div className="text-sm text-muted-foreground mt-1">Pode ser concluído em até 2 semanas</div>
                 </div>
