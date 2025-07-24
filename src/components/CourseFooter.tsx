@@ -27,7 +27,7 @@ const CourseFooter = () => {
                 NSDIGI - Núcleo de Saúde Digital
               </div>
               <div className="text-xs text-muted-foreground">
-                Secretaria de Estado de Saúde de Minas Gerais
+                SES-MG
               </div>
               <div className="space-y-1 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">

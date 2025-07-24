@@ -64,8 +64,11 @@ const CourseTargetAudience = () => {
                   <p className="text-muted-foreground leading-relaxed">
                     {audience.description}
                   </p>
-                  <div className="space-y-3">
-                    <h4 className="font-medium text-foreground">Você vai conseguir:</h4>
+                  <div className="space-y-4">
+                    <div className="text-center">
+                      <h4 className="font-semibold text-lg text-primary mb-2">Você vai conseguir:</h4>
+                      <div className="w-12 h-0.5 bg-primary/30 mx-auto"></div>
+                    </div>
                     <ul className="space-y-2">
                       {audience.benefits.map((benefit, idx) => (
                         <li key={idx} className="text-sm text-muted-foreground flex items-center gap-2">

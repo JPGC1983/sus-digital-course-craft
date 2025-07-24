@@ -8,7 +8,7 @@ const CourseEpilogue = () => {
           </h2>
           <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-6">
             <p>
-              Este curso foi desenvolvido pelo <strong className="text-primary">NSDIGI – Núcleo de Saúde Digital da Secretaria de Estado de Saúde de Minas Gerais</strong>, com o objetivo de apoiar a formação de profissionais e gestores da área da saúde no entendimento e aplicação dos conceitos fundamentais da <strong>Saúde Digital no contexto do SUS</strong>.
+              Este curso foi desenvolvido pelo <strong className="text-primary">NSDIGI – Núcleo de Saúde Digital da SES-MG</strong>, com o objetivo de apoiar a formação de profissionais e gestores da área da saúde no entendimento e aplicação dos conceitos fundamentais da <strong>Saúde Digital no contexto do SUS</strong>.
             </p>
             <p>
               Ao longo dos módulos, você terá contato com os principais pilares que sustentam a transformação digital no sistema público de saúde brasileiro, com ênfase na <strong>interoperabilidade de dados</strong>, na utilização da <strong>Rede Nacional de Dados em Saúde (RNDS)</strong>, e no fortalecimento das práticas de <strong>telessaúde</strong> e <strong>teleconsultoria</strong>.
