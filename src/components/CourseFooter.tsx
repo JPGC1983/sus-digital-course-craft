@@ -26,17 +26,10 @@ const CourseFooter = () => {
               <div className="text-sm font-medium text-primary">
                 NÚCLEO DE SAÚDE DIGITAL-NSDIGI
               </div>
-              <div className="text-xs text-muted-foreground">
-                SES-MG
-              </div>
               <div className="space-y-1 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
                   <span>contato@nsdigi.org.br</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" />
-                  <span>(31) 3916-0000</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
